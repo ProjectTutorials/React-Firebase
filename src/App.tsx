@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import './stylesheet/App.css';
+import { AppRoute } from './routes/AppRoute';
 
 function App() {
   return (
     <div>
-      ts
+      <AppRoute />
     </div>
   );
 }
